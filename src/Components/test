@@ -1,0 +1,14 @@
+<motion.ul
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+      className="w-[150px] h-[150px] grid overflow-hidden m-0 grid-cols-2 grid-rows-2 gap-[15px] p-[15px] bg-[black] rounded-3xl"
+    >
+      {[0, 1, 2, 3].map((index) => (
+        <motion.li
+          key={index}
+          className="bg-white rounded-full"
+          variants={itemVariants}
+        />
+      ))}
+    </motion.ul>
