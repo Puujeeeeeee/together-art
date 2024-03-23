@@ -21,7 +21,8 @@
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0",
     "react-use-downloader": "^1.2.5",
-    "three.js": "^0.77.1"
+    "three.js": "^0.77.1",
+    "vercel": "^33.6.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
